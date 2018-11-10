@@ -4,19 +4,14 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-
 <title>Insert title here</title>
 </head>
 <body>
-			<p>
-				<a href="Agregar.jsp">Agregar</a>
-				<a href="Borrar.jsp">Borrar</a>
-				<a href="Modificar.jsp">Editar</a>
-				<a href="Buscar.jsp">Buscar</a>
+		<form action="Borrar" method="get">
 			
-			</p>
-					
-		
+			Que id desea Eliminar<input type="text" name="txtid">
+								 <input type="submit" value="Borrar">
+		</form>
 
 </body>
 </html>
